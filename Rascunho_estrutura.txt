@@ -12,7 +12,7 @@ VEICULOS DISPONÍVEIS
 
 - Carro: Modelo, Marca, Cor, Velocidade max.
 - Moto: Modelo, Marca, Cor, Velocidade max.
-- Bicicleta: Modelo, cor, quantidade de rodas, tamanho dos aros nas rodas
+- Bicicleta: Modelo, cor, quantidade de rodas
 
 OPÇÕES DE MANIPULAÇÃO
 
