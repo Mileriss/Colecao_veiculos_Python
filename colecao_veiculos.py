@@ -101,3 +101,15 @@ def delVeiculo():
             print("Veiculo nao existe na lista")
     else:
         print("Algo deu errado...")
+
+def listarVeiculo():
+    print("Veiculos adicionados\n\n")
+    print("CARROS:")
+    for carro in lista_carro:
+        print(f"{lista_carro[:]}")
+    print("MOTOS:")
+    for moto in lista_moto:
+        print(f"{lista_moto[:]}")
+    print("BICICLETAS:")
+    for bike in lista_bicicleta:
+        print(f"{lista_bicicleta[:]}")
