@@ -69,3 +69,35 @@ def infoVeiculo():
             print(f"- {bike}")
     else:
         print("Algo deu errado...")
+
+def delVeiculo():
+    selc_veic = input("Selecione o tipo de veiculo: \n1 - Carro\n2 - Moto\n3 - Bicicleta\nDigite aqui: ")
+    if selc_veic == "1":
+        try:
+            print("Selecione qual veiculo deseja excluir")
+            print(f"- {lista_carro}")
+            excl_veic = input("Digite aqui: ")
+            del lista_carro[int(excl_veic)]
+            print("Veiculo deletado!")
+        except:
+            print("Veiculo nao existe na lista")
+    elif selc_veic == "2":
+        try:
+            print("Selecione qual veiculo deseja excluir")
+            print(f"- {lista_moto}")
+            excl_veic = input("Digite aqui: ")
+            del lista_moto[int(excl_veic)]
+            print("Veiculo deletado!")
+        except:
+            print("Veiculo nao existe na lista")
+    elif selc_veic == "3":
+        try:
+            print("Selecione qual veiculo deseja excluir")
+            print(f"- {lista_bicicleta}")
+            excl_veic = input("Digite aqui: ")
+            del lista_bicicleta[int(excl_veic)]
+            print("Veiculo deletado!")
+        except:
+            print("Veiculo nao existe na lista")
+    else:
+        print("Algo deu errado...")
