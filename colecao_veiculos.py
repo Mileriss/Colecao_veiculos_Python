@@ -113,3 +113,9 @@ def listarVeiculo():
     print("BICICLETAS:")
     for bike in lista_bicicleta:
         print(f"{lista_bicicleta[:]}")
+
+def finalizarPrograma():
+    os.system('cls')
+    print("Obrigado por ter utilizado este programa!")
+    os.system('pause')
+    quit("Finalizando o programa...")
