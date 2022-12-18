@@ -1,7 +1,7 @@
 import os
 
 #Lista que vai armazenar as motos
-lista_moto = []
+lista_moto = [["Automatica","Kawasaki","Roxa",230]]
 
 #Criando a classe de veículo: Moto
 class Moto:
@@ -16,7 +16,7 @@ class Moto:
         self.vel_max = vel_max_moto
 
     def infoMoto(self):
-        print("Modelo..........:" + " - " + self.modelo)
-        print("Marca...........:" + " - " + self.marca)
-        print("Cor.............:" + " - " + self.cor)
-        print("Vel. Max........:" + " - " + self.vel_max)
+        print(f"Marca: {self.marca}")
+        print("Modelo.....:" + " " + self.modelo)
+        print("Cor.......:" + " " + self.cor)
+        print("Vel. Max..:" + " " + self.vel_max)
