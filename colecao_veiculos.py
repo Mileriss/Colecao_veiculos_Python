@@ -119,3 +119,19 @@ def finalizarPrograma():
     print("Obrigado por ter utilizado este programa!")
     os.system('pause')
     quit("Finalizando o programa...")
+
+retorno = menu()
+while retorno != "5":
+    if retorno == "1":
+        addVeiculo()
+    elif retorno == "2":
+        infoVeiculo()
+    elif retorno == "3":
+        delVeiculo()
+    elif retorno == "4":
+        listarVeiculo()
+    elif retorno == "5":
+        finalizarPrograma()
+    retorno = menu()
+
+os.system('cls')
