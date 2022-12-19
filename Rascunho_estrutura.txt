@@ -1,0 +1,35 @@
+Coleção de veículos
+
+RESUMO DA APLICAÇÃO
+
+- Programa que vai permitir adicionar diversos tipos de veiculos a uma lista sendo possível visualizar e manipular as ações dos itens adicionados.
+
+- Programa criado para treinar as habilidades em Python e Orientação a Objetos.
+
+- Após criar e modelar a aplicação, será incluido um banco de dados para salvar as informações e enriquecer o código.
+
+VEICULOS DISPONÍVEIS
+
+- Carro: Modelo, Marca, Cor, Velocidade max.
+- Moto: Modelo, Marca, Cor, Velocidade max.
+- Bicicleta: Modelo, cor, quantidade de rodas
+
+OPÇÕES DE MANIPULAÇÃO
+
+- Adicionar novo veículo
+	- Selecionar veículo que será criado
+
+- Informações do veículo
+	- Visualizar as informações de um veículo já criado
+
+- Deletar veículo
+	- Deletar um veículo armazenado na lista
+
+- Listar veículos
+	- Visualizar todos os veículos adicionados de uma categoria
+
+- Finalizar programa
+	- Vai finalizar a aplicação
+
+
+
